@@ -30,22 +30,22 @@ object TasksRepository {
         listOf(
             Task(
                 name = "Open codelab",
-                deadline = simpleDateFormat.parse("2020-07-03")!!,
+                deadline = simpleDateFormat.parse("2020-10-03")!!,
                 priority = TaskPriority.LOW,
                 completed = true
             ),
             Task(
                 name = "Import project",
-                deadline = simpleDateFormat.parse("2020-04-03")!!,
+                deadline = simpleDateFormat.parse("2020-10-03")!!,
                 priority = TaskPriority.MEDIUM,
                 completed = true
             ),
             Task(
-                name = "Check out the code", deadline = simpleDateFormat.parse("2020-05-03")!!,
+                name = "Check out the code", deadline = simpleDateFormat.parse("2020-11-03")!!,
                 priority = TaskPriority.LOW
             ),
             Task(
-                name = "Read about DataStore", deadline = simpleDateFormat.parse("2020-06-03")!!,
+                name = "Read about DataStore", deadline = simpleDateFormat.parse("2020-11-25")!!,
                 priority = TaskPriority.HIGH
             ),
             Task(
@@ -55,7 +55,7 @@ object TasksRepository {
             ),
             Task(
                 name = "Understand how to use DataStore",
-                deadline = simpleDateFormat.parse("2020-04-03")!!,
+                deadline = simpleDateFormat.parse("2020-12-03")!!,
                 priority = TaskPriority.HIGH
             ),
             Task(
